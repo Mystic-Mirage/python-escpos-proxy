@@ -8,10 +8,10 @@ from escpos_proxy.printer import Printer
 @pytest.fixture
 def url():
     return (
-        "escpos://proxy?ce7YvfHiNS6YKc4UAu4Dze5SWTDaVJFGUBdT6Ti68ao97fGox"
-        "XYT5uKXDVqtCvGbCd6dr7mPvb4MBGkDUfAf7XszjZig5PWKvEtXcDAY5tfZamwyV"
-        "NMu3ebNvZJHwW8u9dcKZnjiSfcKweD9tZsfcTcuBFqRMyzts8Mq8cvvxzU6TMr3d"
-        "5zWHVbajbsGtwZ4fCUGGQqcb5ieGgzoRp3bt9GghLRQAoKXMApm"
+        "escpos://proxy?4g5PQQr94icf85qfujn4fhzZhvzdwNiM1p3YNCcGBXZTeKmP3"
+        "9KsLGEgX52EtGzLV399TWTxtHDJUU5wxsrjkiV4sznwsZnq18MrNoPVVD5QGwUoE"
+        "avBsfrJUZNyjUM7RjnGaP1jSFsoDBVAJQYEfNYyw9NBv8RrE5bNPfuVLVb69zKyJ"
+        "vxVDZEWGubu9V3LKtfo3T1EdzoLRJH34NRfKPYRJ2C"
     )
 
 

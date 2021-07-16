@@ -8,7 +8,7 @@ from escpos_proxy.types import Text
     "data",
     [
         [Text("hello")],
-    ]
+    ],
 )
 def test_decode_url(data, printer, url):
     assert parse_url(url) == (printer, data)

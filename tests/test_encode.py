@@ -10,7 +10,7 @@ from escpos_proxy.types import Text
         "hello",
         ["hello"],
         [Text("hello")],
-    ]
+    ],
 )
 def test_make_url(data, printer, url):
     assert make_url(printer, data) == url

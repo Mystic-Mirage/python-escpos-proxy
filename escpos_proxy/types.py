@@ -1,8 +1,8 @@
 from io import BytesIO
 from pathlib import Path
 
-import PIL.Image
 import escpos.escpos
+import PIL.Image
 
 
 class Image(bytes):
