@@ -1,0 +1,13 @@
+printer:
+#  type: Network
+#  host: 192.168.1.200
+#  timeout: 1
+  type: Dummy
+  profile: POS-5890
+defaults:
+  image:
+    impl: bitImageColumn
+    center: true
+page:
+  width: 32
+  bottom_margin: 4
