@@ -5,7 +5,7 @@ from urllib.parse import urlunparse
 import base58
 import bson
 
-from . import SCHEME, NETLOC, PATH
+from .constants import NETLOC, PATH, SCHEME
 from .printer import Printer
 from .types import Image, Text
 

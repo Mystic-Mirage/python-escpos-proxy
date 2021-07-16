@@ -4,17 +4,19 @@ import zlib
 import base58
 import bson
 
-from . import SCHEME, NETLOC
+from .constants import NETLOC, SCHEME
 from .printer import Printer
-from .types import Text, Image
+from .types import Image, Text
 
 
 def parse_url(url):
     parsed = urllib.parse.urlparse(url)
-    if not all([
-        parsed.scheme == SCHEME,
-        parsed.netloc == NETLOC,
-    ]):
+    if not all(
+        [
+            parsed.scheme == SCHEME,
+            parsed.netloc == NETLOC,
+        ]
+    ):
         raise ValueError("Wrong url")
     elif parsed.query == "":
         raise ValueError("Empty query")
